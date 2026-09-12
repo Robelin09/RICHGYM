@@ -40,6 +40,7 @@
   </main>
   <nav class="bottom-nav"><button class="nav-item active" data-go="today"><span>⌂</span>Hoy</button><button class="nav-item" data-go="build"><span>＋</span>Rutina</button><button class="nav-item" data-go="history"><span>◷</span>Historial</button><button class="nav-item" data-go="progress"><span>↗</span>Progreso</button><button class="nav-item" data-go="profile"><span>☺</span>Perfil</button></nav>
   <dialog id="workoutDialog"><form method="dialog" id="workoutForm"><div class="dialog-head"><div><p class="eyebrow" id="dialogGoal"></p><h2 id="dialogTitle">Entrenamiento</h2></div><button value="cancel" class="icon-btn">×</button></div><p class="muted">Anota cada serie. Tu historial quedará guardado en este dispositivo.</p><div id="setInputs"></div><div class="dialog-actions"><button value="cancel" class="secondary">Cancelar</button><button id="saveWorkout" value="default" class="primary">Guardar sesión</button></div></form></dialog>
+  <dialog id="historyDialog"><form method="dialog"><div class="dialog-head"><div><p class="eyebrow" id="historyDate"></p><h2 id="historyTitle">Sesión</h2></div><button value="cancel" class="icon-btn">×</button></div><div id="historyDetails"></div><div class="dialog-actions"><button value="cancel" class="primary">Cerrar</button></div></form></dialog>
   <script src="app.js"></script>
 </body>
 </html>
